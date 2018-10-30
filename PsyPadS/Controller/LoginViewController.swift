@@ -70,7 +70,8 @@ class LoginViewController: MainMenuViewController {
                 }))
             hud.hide(animated: true)
             }
-        RootEntity().server_url = serverURLField.text!
+        let rootEntity = RootEntity()
+        rootEntity.server_url = serverURLField.text!
         DatabaseManager.save()
         ServerManager.shared().login(withEmail: emailField.text, password: passwordField.text, success: success, failure: failure)
     }

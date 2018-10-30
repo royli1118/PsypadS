@@ -89,14 +89,9 @@
 		B026C9C5218489B70067729E /* DLSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = B026C9A2218489B70067729E /* DLSettings.m */; };
 		B026C9C6218489B70067729E /* DLTextFieldCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = B026C9A7218489B70067729E /* DLTextFieldCollection.m */; };
 		B026C9C7218489B70067729E /* UIStoryboard+DLMain.m in Sources */ = {isa = PBXBuildFile; fileRef = B026C9A8218489B70067729E /* UIStoryboard+DLMain.m */; };
-		B026C9C8218489B70067729E /* DLScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = B026C9AB218489B70067729E /* DLScrollView.m */; };
 		B026C9C9218489B70067729E /* DLServerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B026C9AD218489B70067729E /* DLServerManager.m */; };
-		B026C9CA218489B70067729E /* DLLandscapeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B026C9B0218489B70067729E /* DLLandscapeViewController.m */; };
-		B026C9CB218489B70067729E /* DLLandscapeNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = B026C9B2218489B70067729E /* DLLandscapeNavigationController.m */; };
-		B026C9CC218489B70067729E /* UIViewController+DLLoad.m in Sources */ = {isa = PBXBuildFile; fileRef = B026C9B5218489B70067729E /* UIViewController+DLLoad.m */; };
 		B026C9CD218489B70067729E /* DLCenteringScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B026C9B6218489B70067729E /* DLCenteringScrollViewController.m */; };
 		B026C9CE218489B70067729E /* DLPortraitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B026C9B7218489B70067729E /* DLPortraitViewController.m */; };
-		B026C9D1218489B70067729E /* DLPortraitNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = B026C9BC218489B70067729E /* DLPortraitNavigationController.m */; };
 		B026C9D2218489B70067729E /* DLLaunchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B026C9C0218489B70067729E /* DLLaunchViewController.m */; };
 		B026C9D3218489B70067729E /* DLTextFieldToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = B026C9C1218489B70067729E /* DLTextFieldToolbar.m */; };
 		B026C9D6218489ED0067729E /* LaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B026C9D5218489ED0067729E /* LaunchViewController.swift */; };
@@ -121,6 +116,11 @@
 		B0E13ABD2187405E001473A1 /* TestImageButton.m in Sources */ = {isa = PBXBuildFile; fileRef = B0E13ABC2187405E001473A1 /* TestImageButton.m */; };
 		B0E13ABF2187D6B6001473A1 /* Fraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E13ABE2187D6B6001473A1 /* Fraction.swift */; };
 		B0E13AC22187E693001473A1 /* Fraction.m in Sources */ = {isa = PBXBuildFile; fileRef = B0E13AC12187E693001473A1 /* Fraction.m */; };
+		B0E13AC42187EA13001473A1 /* DLLandscapeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E13AC32187EA13001473A1 /* DLLandscapeViewController.swift */; };
+		B0E13AC92187EBD6001473A1 /* UIViewController+DLLoad.m in Sources */ = {isa = PBXBuildFile; fileRef = B0E13AC72187EBD6001473A1 /* UIViewController+DLLoad.m */; };
+		B0E13ACB2187EC46001473A1 /* DLPortraitNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E13ACA2187EC46001473A1 /* DLPortraitNavigationController.swift */; };
+		B0E13ACD2187ECD0001473A1 /* DLLandscapeNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E13ACC2187ECD0001473A1 /* DLLandscapeNavigationController.swift */; };
+		B0E13ACF2187F49B001473A1 /* DLScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E13ACE2187F49B001473A1 /* DLScrollView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -243,7 +243,6 @@
 		B026C99D218489B70067729E /* DLIterativeMigrator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLIterativeMigrator.m; sourceTree = "<group>"; };
 		B026C99E218489B70067729E /* DLDatabaseManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLDatabaseManager.m; sourceTree = "<group>"; };
 		B026C99F218489B70067729E /* DLIterativeMigrator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLIterativeMigrator.h; sourceTree = "<group>"; };
-		B026C9A0218489B70067729E /* UIViewController+DLLoad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+DLLoad.h"; sourceTree = "<group>"; };
 		B026C9A1218489B70067729E /* DLKeyboardObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLKeyboardObserver.m; sourceTree = "<group>"; };
 		B026C9A2218489B70067729E /* DLSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLSettings.m; sourceTree = "<group>"; };
 		B026C9A4218489B70067729E /* DLLocalization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLLocalization.h; sourceTree = "<group>"; };
@@ -252,23 +251,14 @@
 		B026C9A8218489B70067729E /* UIStoryboard+DLMain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIStoryboard+DLMain.m"; sourceTree = "<group>"; };
 		B026C9A9218489B70067729E /* DLLaunchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLLaunchViewController.h; sourceTree = "<group>"; };
 		B026C9AA218489B70067729E /* DLTextFieldToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLTextFieldToolbar.h; sourceTree = "<group>"; };
-		B026C9AB218489B70067729E /* DLScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLScrollView.m; sourceTree = "<group>"; };
 		B026C9AD218489B70067729E /* DLServerManager.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; path = DLServerManager.m; sourceTree = "<group>"; };
 		B026C9AE218489B70067729E /* DLServerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLServerManager.h; sourceTree = "<group>"; };
-		B026C9B0218489B70067729E /* DLLandscapeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLLandscapeViewController.m; sourceTree = "<group>"; };
-		B026C9B1218489B70067729E /* DLPortraitNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLPortraitNavigationController.h; sourceTree = "<group>"; };
-		B026C9B2218489B70067729E /* DLLandscapeNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLLandscapeNavigationController.m; sourceTree = "<group>"; };
 		B026C9B3218489B70067729E /* DLSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLSettings.h; sourceTree = "<group>"; };
 		B026C9B4218489B70067729E /* DLKeyboardObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLKeyboardObserver.h; sourceTree = "<group>"; };
-		B026C9B5218489B70067729E /* UIViewController+DLLoad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+DLLoad.m"; sourceTree = "<group>"; };
 		B026C9B6218489B70067729E /* DLCenteringScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLCenteringScrollViewController.m; sourceTree = "<group>"; };
 		B026C9B7218489B70067729E /* DLPortraitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLPortraitViewController.m; sourceTree = "<group>"; };
 		B026C9BA218489B70067729E /* UIStoryboard+DLMain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIStoryboard+DLMain.h"; sourceTree = "<group>"; };
 		B026C9BB218489B70067729E /* DLTextFieldCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLTextFieldCollection.h; sourceTree = "<group>"; };
-		B026C9BC218489B70067729E /* DLPortraitNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLPortraitNavigationController.m; sourceTree = "<group>"; };
-		B026C9BD218489B70067729E /* DLLandscapeNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLLandscapeNavigationController.h; sourceTree = "<group>"; };
-		B026C9BE218489B70067729E /* DLLandscapeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLLandscapeViewController.h; sourceTree = "<group>"; };
-		B026C9BF218489B70067729E /* DLScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLScrollView.h; sourceTree = "<group>"; };
 		B026C9C0218489B70067729E /* DLLaunchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLLaunchViewController.m; sourceTree = "<group>"; };
 		B026C9C1218489B70067729E /* DLTextFieldToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLTextFieldToolbar.m; sourceTree = "<group>"; };
 		B026C9D4218489ED0067729E /* PsyPadS-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PsyPadS-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -300,6 +290,12 @@
 		B0E13ABE2187D6B6001473A1 /* Fraction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fraction.swift; sourceTree = "<group>"; };
 		B0E13AC02187E692001473A1 /* Fraction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fraction.h; sourceTree = "<group>"; };
 		B0E13AC12187E693001473A1 /* Fraction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Fraction.m; sourceTree = "<group>"; };
+		B0E13AC32187EA13001473A1 /* DLLandscapeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DLLandscapeViewController.swift; sourceTree = "<group>"; };
+		B0E13AC72187EBD6001473A1 /* UIViewController+DLLoad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+DLLoad.m"; sourceTree = "<group>"; };
+		B0E13AC82187EBD6001473A1 /* UIViewController+DLLoad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+DLLoad.h"; sourceTree = "<group>"; };
+		B0E13ACA2187EC46001473A1 /* DLPortraitNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DLPortraitNavigationController.swift; sourceTree = "<group>"; };
+		B0E13ACC2187ECD0001473A1 /* DLLandscapeNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DLLandscapeNavigationController.swift; sourceTree = "<group>"; };
+		B0E13ACE2187F49B001473A1 /* DLScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DLScrollView.swift; sourceTree = "<group>"; };
 		B2A2A6D682B888804FBBD0AB /* Pods-PsyPadS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PsyPadS.release.xcconfig"; path = "Pods/Target Support Files/Pods-PsyPadS/Pods-PsyPadS.release.xcconfig"; sourceTree = "<group>"; };
 		D0BEDBB500834E235B2C5EF3 /* Pods-PsyPadS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PsyPadS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PsyPadS/Pods-PsyPadS.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -667,8 +663,13 @@
 				B026C99B218489B70067729E /* Database */,
 				B026C9AC218489B70067729E /* Server */,
 				B0E13AA92187143A001473A1 /* DLAppDelegate.swift */,
+				B0E13AC32187EA13001473A1 /* DLLandscapeViewController.swift */,
+				B0E13ACA2187EC46001473A1 /* DLPortraitNavigationController.swift */,
+				B0E13ACC2187ECD0001473A1 /* DLLandscapeNavigationController.swift */,
+				B0E13ACE2187F49B001473A1 /* DLScrollView.swift */,
+				B0E13AC82187EBD6001473A1 /* UIViewController+DLLoad.h */,
+				B0E13AC72187EBD6001473A1 /* UIViewController+DLLoad.m */,
 				B026C99A218489B70067729E /* DLCenteringScrollViewController.h */,
-				B026C9A0218489B70067729E /* UIViewController+DLLoad.h */,
 				B026C9A1218489B70067729E /* DLKeyboardObserver.m */,
 				B026C9A2218489B70067729E /* DLSettings.m */,
 				B026C9A4218489B70067729E /* DLLocalization.h */,
@@ -677,21 +678,12 @@
 				B026C9A8218489B70067729E /* UIStoryboard+DLMain.m */,
 				B026C9A9218489B70067729E /* DLLaunchViewController.h */,
 				B026C9AA218489B70067729E /* DLTextFieldToolbar.h */,
-				B026C9AB218489B70067729E /* DLScrollView.m */,
-				B026C9B0218489B70067729E /* DLLandscapeViewController.m */,
-				B026C9B1218489B70067729E /* DLPortraitNavigationController.h */,
-				B026C9B2218489B70067729E /* DLLandscapeNavigationController.m */,
 				B026C9B3218489B70067729E /* DLSettings.h */,
 				B026C9B4218489B70067729E /* DLKeyboardObserver.h */,
-				B026C9B5218489B70067729E /* UIViewController+DLLoad.m */,
 				B026C9B6218489B70067729E /* DLCenteringScrollViewController.m */,
 				B026C9B7218489B70067729E /* DLPortraitViewController.m */,
 				B026C9BA218489B70067729E /* UIStoryboard+DLMain.h */,
 				B026C9BB218489B70067729E /* DLTextFieldCollection.h */,
-				B026C9BC218489B70067729E /* DLPortraitNavigationController.m */,
-				B026C9BD218489B70067729E /* DLLandscapeNavigationController.h */,
-				B026C9BE218489B70067729E /* DLLandscapeViewController.h */,
-				B026C9BF218489B70067729E /* DLScrollView.h */,
 				B026C9C0218489B70067729E /* DLLaunchViewController.m */,
 				B026C9C1218489B70067729E /* DLTextFieldToolbar.m */,
 			);
@@ -838,7 +830,6 @@
 				63BF7A891ABEB2D300825F70 /* TestLog.m in Sources */,
 				B04F4E0F2185777B00206291 /* ManageUserTableViewController.swift in Sources */,
 				B04F4DF2218562DB00206291 /* ConfigurationTableViewCell.m in Sources */,
-				B026C9D1218489B70067729E /* DLPortraitNavigationController.m in Sources */,
 				63BF7A571ABEB1B500825F70 /* ServerManager.m in Sources */,
 				B04F4DFD2185701300206291 /* SwitchTableViewCell.swift in Sources */,
 				63BF7A821ABEB2D300825F70 /* _TestLogItem.m in Sources */,
@@ -849,7 +840,6 @@
 				B026C9D2218489B70067729E /* DLLaunchViewController.m in Sources */,
 				635D07B6168D7D0D002B845F /* MainMenuViewController.m in Sources */,
 				63BF7A8C1ABEB2D300825F70 /* TestSequenceFolder.m in Sources */,
-				B026C9CC218489B70067729E /* UIViewController+DLLoad.m in Sources */,
 				6385E38A18176BB300508530 /* BorderButton.m in Sources */,
 				636035BA168D897000AE93D0 /* UIView+Positioning.m in Sources */,
 				636035BF168D897E00AE93D0 /* Random.m in Sources */,
@@ -888,12 +878,13 @@
 				5AF0E348E1EB72492DB80135 /* Mean.m in Sources */,
 				B0E13AA42186E1CE001473A1 /* AdminPanelTableViewController.swift in Sources */,
 				B0E13AAC218718B5001473A1 /* AppDelegate.swift in Sources */,
-				B026C9CB218489B70067729E /* DLLandscapeNavigationController.m in Sources */,
 				B04F4E012185721300206291 /* SliderTableViewCell.swift in Sources */,
 				63BF7A881ABEB2D300825F70 /* TestConfiguration.m in Sources */,
+				B0E13ACB2187EC46001473A1 /* DLPortraitNavigationController.swift in Sources */,
+				B0E13ACF2187F49B001473A1 /* DLScrollView.swift in Sources */,
 				63BF7A8E1ABEB2D300825F70 /* User.m in Sources */,
-				B026C9CA218489B70067729E /* DLLandscapeViewController.m in Sources */,
 				5AF0E2B31987AE178A5BB5B8 /* NSString+containsCategory.m in Sources */,
+				B0E13AC42187EA13001473A1 /* DLLandscapeViewController.swift in Sources */,
 				63BF7A841ABEB2D300825F70 /* _TestSequenceFolder.m in Sources */,
 				5AF0EC3121BF8F52B737D033 /* UIImage+Picker.m in Sources */,
 				B0E13AA02186D7C6001473A1 /* AvailableConfiguration.swift in Sources */,
@@ -902,12 +893,13 @@
 				63BF7A8A1ABEB2D300825F70 /* TestLogItem.m in Sources */,
 				B026C9C3218489B70067729E /* DLDatabaseManager.m in Sources */,
 				5AF0E16D74928A2480ABE261 /* NSString+getNumberFromString.m in Sources */,
+				B0E13ACD2187ECD0001473A1 /* DLLandscapeNavigationController.swift in Sources */,
 				B026C9D8218494370067729E /* LoginViewController.swift in Sources */,
 				5AF0E26DEA506465B67AA052 /* NSArray+GetRandom.m in Sources */,
-				B026C9C8218489B70067729E /* DLScrollView.m in Sources */,
 				6330F4D91A932A4900A62986 /* NSURL+CommonURLs.m in Sources */,
 				63A1ED6017B89C100089C204 /* UserTableViewCell.m in Sources */,
 				B026C9E22185412A0067729E /* DemoViewController.swift in Sources */,
+				B0E13AC92187EBD6001473A1 /* UIViewController+DLLoad.m in Sources */,
 				5AF0E0005D2CBAD344805694 /* UIColor+Hex.m in Sources */,
 				B026C9C9218489B70067729E /* DLServerManager.m in Sources */,
 				5AF0E8592B9AD503599993C7 /* DistanceDetector.m in Sources */,
