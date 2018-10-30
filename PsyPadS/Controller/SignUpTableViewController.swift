@@ -67,7 +67,7 @@ class SignUpTableViewController : UIViewController{
         
         weak var weakSelf = self
         var success: (() -> Void)? = {
-            hud?.hide(true)
+            hud?.hide(animated: true)
             var lvc = (weakSelf?.navigationController?.presentingViewController as? UINavigationController)?.topViewController as? LoginViewController
             lvc?.serverURLField.text = weakSelf?.serverField.text
             lvc?.emailField.text = weakSelf?.emailField.text
@@ -82,7 +82,7 @@ class SignUpTableViewController : UIViewController{
             alert.addAction(UIAlertAction(title: NSLocalizedString("Close", comment: "Default action"), style: .default, handler: { _ in
                 NSLog("The \"OK\" alert occured.")
             }))
-            hud?.hide(true)
+            hud?.hide(animated: true)
         }
         RootEntity().server_url = self.serverField.text!
         DatabaseManager.save()
